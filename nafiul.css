@@ -1,0 +1,526 @@
+/*
+    Cardial Color #dc143c
+*/
+body {
+    height: 100%;
+    margin: 0;
+    padding: 5rem 0 0 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    background-color: white;
+    background-image: 
+        linear-gradient(to right, rgba(0,0,0,0.1) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0,0,0,0.1) 1px, transparent 1px);
+    background-size: 10px 10px;
+    
+}
+
+h1 {
+    font-size: 55px;
+    color: #333;
+}
+.display-5 {
+    padding-bottom: 9%;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #666;
+    text-align: justify;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+img {
+    max-height: 500px;
+}
+
+.navbar {
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    height: 70px;
+}
+
+.nav-link:hover {
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: 800;
+}
+.nav-link.active {
+    background-color: white;
+    color: black !important;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 80px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.btn i {
+    font-size: 1.2rem;
+}
+
+.text-outline {
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-weight: bold;
+}
+
+.container .row {
+    margin-bottom: 5rem;
+}
+
+.mario {
+    max-width: 400px;
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {  
+        transform: translateY(0px);
+    }
+}
+
+.fullscreen-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+}
+.windows-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: aliceblue;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7);
+    text-align: center;
+}
+.windows-image {
+    width: 80vh;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+}
+.start-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(to bottom, #cfcfcf, #a3a3a3);
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.start-button:hover {
+    background: linear-gradient(to bottom, #ffffff, #cfcfcf);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.start-logo {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill=\'%234CAF50\' d=\'M8 7h13v13H8z\'/><path fill=\'%23F44336\' d=\'M27 7h13v13H27z\'/><path fill=\'%23FFEB3B\' d=\'M8 27h13v13H8z\'/><path fill=\'%233F51B5\' d=\'M27 27h13v13H27z\'/></svg>') no-repeat center center / cover;
+}
+
+.start-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+.home-screen {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the entire image is visible */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: black;
+}
+
+
+.desktop-container {
+    width: 80%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #008080; /* Windows 95 desktop background color */
+    position: relative;
+}
+.taskbar {
+    width: 80%;
+    height: 50px;
+    background-color: #c0c0c0; /* Windows 95 taskbar color */
+    border-top: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+.icon-image {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.icon-image.my-computer {
+    background: url('mycomputer.png') no-repeat center center;
+    background-size: contain;
+    width: 90px;
+    height: 90px;}
+
+.icon-image.folder {
+    background: url('file.png') no-repeat center center;
+    background-size: contain;
+    width: 90px;
+    height: 90px;}
+
+.resume-popup {
+    width: 80%;
+    height: 70%;
+    background: white;
+    border: 2px solid black;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.resume-header {
+    background-color: #808080;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 2px solid black;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.resume-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+/* Contact Section Background */
+.contact-section {
+    background: url('tetris2.png') repeat-x;
+    background-size: 320px;
+    background-position: bottom;
+    color: black;
+    text-align: center;
+    padding: 0 15% 10% 15%;
+}
+
+.contact-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3);
+    color: #000;
+}
+
+/* Contact Form Styling */
+.contact-form {
+    background-color: aliceblue;
+    border: 1px solid antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form button[type="submit"] {
+    background-color: green;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.contact-form {
+    background-color: aliceblue;
+    border: 1px solid antiquewhite;
+}
+
+.rubrik {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+}
+.rubrik-cube {
+    max-width: 50%;
+    margin-bottom: 40px;
+}
+.rubrik-text {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 3.5rem;
+}
+
+/* Flashing Button Animation */
+.flashing-button {
+    animation: flash 1.5s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/* Keyframes for Flashing Effect */
+@keyframes flash {
+    0%, 100% {
+        background-color: #28a745; 
+        color: white;
+        box-shadow: 0px 0px 10px #00ff3c;
+    }
+    50% {
+        background-color: #1b6cc2; 
+        color: white;
+        box-shadow: 0px 0px 50px #007bff;
+    }
+}
+
+.card {
+    border-radius: 15px;
+    background: #f9f9f9;
+    padding: 20px;
+}
+
+.carousel-inner img {
+    height: auto;
+    object-fit: contain;
+}
+
+.container .row.align-items-center {
+    padding: 50px 0 150px 0;
+}
+
+.container h2 {
+    font-size: 2.7rem;
+    color: #333;
+}
+
+.card-body {
+    border-radius: 15px;
+    background: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 128, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-body:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 25px rgba(0, 128, 0, 0.5);
+}
+
+.github-icon-link {
+    color: #28a745; 
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.github-icon-link i {
+    font-size: 1.2rem;
+}
+
+.github-icon-link:hover {
+    text-decoration: underline;
+    color: #1b6cc2;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+
+}
+
+.joke {
+    border: 2px solid black;
+    background-color: aliceblue;
+}
+
+/* Research  Page */
+.research-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    margin-top: -70px;
+}
+
+h1 .highlight {
+    font-weight: 800;
+    display: inline-block;
+    color: #f59c0b;
+    font-size: 7rem;
+}
+.dot {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 1rem;
+    height: 1rem;
+    background-color: #f59c0b;
+    border-radius: 50%;
+    z-index: 1;
+}
+.publications-section {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.publication-pdf {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 255, 0.8);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.publication-details {
+    max-width: 50%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.publication-details h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.publication-details p {
+    color: #555;
+    font-size: 1.1rem;
+    margin: 1rem;
+}
+
+.researchgate-icon-link {
+    color: #28a745; 
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.researchgate-icon-link i {
+    font-size: 1.2rem;
+}
+
+.researchgate-icon-link:hover {
+    text-decoration: underline;
+    color: #1b6cc2;
+}
+
+.conferences-section {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conference-poster img {
+    max-width: 400px;
+    height: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.conference-details {
+    max-width: 50%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.conference-details h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.conference-details p {
+    color: #555;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+
+
+

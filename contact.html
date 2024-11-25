@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Nafiul Khalid</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="nafiul.css">
+</head>
+<body>
+    <!-- ---------------------------------------------- Nav Bar ---------------------------------------------- -->
+    <nav class="navbar navbar-dark bg-black fixed-top px-4">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="nafiul.html">Nafiul Khalid</a>
+            <div class="d-flex">
+                <a class="nav-link text-white rounded shadow-sm px-3" href="nafiul.html">Home</a>
+                <a class="nav-link text-white rounded shadow-sm px-3" href="project.html">Projects</a>
+                <a class="nav-link text-white rounded shadow-sm px-3" href="research.html">Research</a>
+                <a class="nav-link text-white rounded shadow-sm px-3" href="resume.html">Resume</a>
+                <a class="nav-link text-white rounded shadow-sm px-3 active" href="contact.html">Get in Touch</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ---------------------------------------------- Contact ---------------------------------------------- -->
+    <div class="contact-section">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <h1 class="display-5 fw-bold mb-4">The key to <u><span style="color: #007bff;">building a tomorrow</span></u> together,<br>is to <span style="color: #dc143c;">connect</span> today!</h1>
+                <div class="col-md-6">
+                    <div class="contact-box">
+                        <h5 class="lead">
+                            Whether you're looking to collaborate, just say hi, or looking forward to having a chat, I'm all down for it. 
+                            Go ahead, drop me a message and I'll get back to you within 6 hours.
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form class="contact-form" action="mailto:nkhal014@fiu.edu" method="POST" enctype="text/plain">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Words</label>
+                            <textarea class="form-control" id="message" name="message" rows="7" cols="6" placeholder="Type your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ---------------------------------------------- Footer ---------------------------------------------- -->
+    <footer class="bg-dark text-center py-3">
+        <br>
+        <p class="mb-0" style="color: aliceblue;">I appreciate your time!</p>
+        <p class="mb-0" style="color: aliceblue;">Made with <b style="color: red;">love</b>, Nafiul Khalid</p>
+        <br>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

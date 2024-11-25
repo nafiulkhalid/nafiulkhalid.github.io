@@ -1,0 +1,187 @@
+<!--
+    ---------------------------------------------- Decomposition ----------------------------------------------
+    -- Background grid paper
+    -- nav bar
+    -- image 
+    -- text box (color text) (buttons) (local time)
+    -- footer
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nafiul Khalid</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="nafiul.css">
+</head>
+<body>
+
+    <!-- ---------------------------------------------- Nav Bar ---------------------------------------------- -->
+    <nav class="navbar navbar-dark bg-black fixed-top px-4">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="nafiul.html">Nafiul Khalid</a>
+            <div class="d-flex">
+                <a class="nav-link text-white rounded shadow-sm px-3 active" href="nafiul.html">Home</a>
+                <a class="nav-link text-white rounded shadow-sm px-3" href="project.html">Projects</a>
+                <a class="nav-link text-white rounded shadow-sm px-3" href="research.html">Research</a>
+                <a class="nav-link text-white rounded shadow-sm px-3" href="resume.html">Resume</a>
+                <a class="nav-link text-white rounded shadow-sm px-3" href="contact.html">Get in Touch</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ---------------------------------------------- Home Image & Introduction ---------------------------------------------- -->
+    <div class="container mt-5 pt-5">
+        <div class="row align-items-center">
+            <!-- Home Image -->
+            <div class="col-md-6 text-center">
+                <img src="home.jpg" alt="myIMG" class="img-fluid rounded shadow-lg">
+            </div>
+
+            <!-- Introduction Box-->
+            <div class="col-md-6">
+                <div class="p-4 border rounder shadow-lg" style="background-color: aliceblue;">
+                    <h1 class="fw-bold text-dark mb-4"> Hey, I'm <strong style="color: #dc143c;">Nafiul</strong>, a <strong class="text-outline">Software Engineer</strong> aspirant & a <strong style="color: orange;">Full-Stack</strong> Developer!</h1>
+                    <div class="d-flex flex-wrap mt-3">
+                        <span class="badge bg-dark me-2 mb-2">He/Him</span>
+                        <span class="badge bg-dark me-2 mb-2">Miami, Florida, USA</span>
+                    </div>
+                    <div class="d-flex flex-wrap mb-3">
+                        <a href="https://www.linkedin.com/in/nafiulkhalid/" target="_blank" class="btn btn-outline-primary btn-sm me-2 mb-2">
+                            <i class="bi- bi-linkedin"></i>
+                        <a href="https://github.com/nafiulkhalid/" target="_blank" class="btn btn-outline-dark btn-sm me-2 mb-2">
+                            <i class="bi- bi-github"></i>
+                        </a>
+                        </a>
+                        <a href="https://www.instagram.com/nafiul_khalid/" target="_blank" class="btn btn-outline-danger btn-sm me-2 mb-2">
+                            <i class="bi- bi-instagram"></i>
+                        </a>
+                        <a href="mailto:nkhal014@fiu.edu" class="btn btn-outline-success btn-sm me-2 mb-2">nkhal014@fiu.edu</a>
+                    </div>
+                    <p id="local-time" class="mt-4 text-muted">My Local Time: 12:30PM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------- Technologies & Gist ---------------------------------------------- -->
+    <div class="container mt-5">
+        <div class="row gy-5 align-items-center">
+            <!-- Technology Box-->
+            <div class="col-md-6">
+                <div class="p-4 border text-center rounded shadow-sm" style="background-color: transparent;">
+                    <h4 class="fw-bold text-dark mb-4">I'm <u>comfortable</u> with</h3><hr>
+
+
+                    <ul class="list-unstyled">
+                        <li class="mb-2 d-flex">
+                            <i class="bi bi-check-circle-fill text-success"></i>&nbsp;&nbsp;
+                            <h3 class="fs-5 lh-sm mb-0" style="color: #0425fb;">Java</h3>
+                        </li>
+                        <li class="mb-2 d-flex">
+                            <i class="bi bi-check-circle-fill text-success"></i>&nbsp;&nbsp;
+                            <h3 class="fs-5 lh-sm mb-0" style="color: #7323ca;">Git & Github</h3>
+                        </li>
+                        <li class="mb-2 d-flex">
+                            <i class="bi bi-check-circle-fill text-success"></i>&nbsp;&nbsp;
+                            <h3 class="fs-5 lh-sm mb-0" style="color: #dfb34b;">HTML</h3>
+                        </li>
+                        <li class="mb-2 d-flex">
+                            <i class="bi bi-check-circle-fill text-success"></i>&nbsp;&nbsp;
+                            <h3 class="fs-5 lh-sm mb-0" style="color: #EB5B00;">CSS</h3>
+                        </li>
+                        <li class="mb-2 d-flex">
+                            <i class="bi bi-check-circle-fill text-success"></i>&nbsp;&nbsp;
+                            <h3 class="fs-5 lh-sm mb-0" style="color: #E4003A;">JavaScript</h3>
+                        </li>
+                        <li class="mb-2 d-flex">
+                            <i class="bi bi-check-circle-fill text-success"></i>&nbsp;&nbsp;
+                            <h3 class="fs-5 lh-sm mb-0" style="color: #007bff;">Bootstrap</h3>
+                        </li>
+                        <li class="mb-2 d-flex">
+                            <i class="bi bi-check-circle-fill text-success"></i>&nbsp;&nbsp;
+                            <h3 class="fs-5 lh-sm mb-0" style="color: #07bb91;">Tailwind</h3>
+                        </li>
+                        <li class="mb-2 d-flex">
+                            <i class="bi bi-check-circle-fill text-success"></i>&nbsp;&nbsp;
+                            <h3 class="fs-5 lh-sm mb-0" style="color: #6C0345;">Node.js</h3>
+                        </li>
+                        <li class="mb-2 d-flex">
+                            <i class="bi bi-check-circle-fill text-success"></i>&nbsp;&nbsp;
+                            <h3 class="fs-5 lh-sm mb-0" style="color: #f7a100;">Express.js</h3>
+                        </li>
+                        <li class="mb-2 d-flex">
+                            <i class="bi bi-check-circle-fill text-success"></i>&nbsp;&nbsp;
+                            <h3 class="fs-5 lh-sm mb-0" style="color: #DC6B19;">Ejs</h3>
+                        </li>
+                        <li class="mb-2 d-flex">
+                            <i class="bi bi-check-circle-fill text-success"></i>&nbsp;&nbsp;
+                            <h3 class="fs-5 lh-sm mb-0" style="color: #28a745;">MongoDB</h3>
+                        </li>
+                        <li class="mb-2 d-flex">
+                            <i class="bi bi-check-circle-fill text-success"></i>&nbsp;&nbsp;
+                            <h3 class="fs-5 lh-sm mb-0" style="color: #61dafb;">React</h3>
+                        </li>
+                        <li class="mb-2 d-flex">
+                            <i class="bi bi-check-circle-fill text-success"></i>&nbsp;&nbsp;
+                            <h3 class="fs-5 lh-sm mb-0" style="color: #e9229d;">REST</h3>
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+            <!-- Summary Texts-->
+            <div class="col-md-6">
+                <h3 class="fw-bold text-center" style="color: #f7a100;">Eat, <span style="color: #088104;">Code,</span><br><span style="color: #ff7b00;">Debug😫,</span><br><span style="color: #0352a6;">Sleep,</span> <span style="color: #cc2604;">Repeat!</span></h3>
+                <p class="fs-5 lh-lg text-muted mt-4">
+                    Hey, I am Nafiul Khalid. I'm a Full-Stack Developer. My strength is Backend. I am pursuing Computer Science BS under the Honors College of Florida International University. I believe every line of code has the power to turn my imagination into reality. I am a team player and I aim to work for a change! <br><br>
+                    Although I wanted to be a businessman in my early childhood, but thanks to <strong href="https://www.imdb.com/title/tt1285016/">"The Social Network" (2010)</strong>, I discovered my interest in programming. It didn't take long when my interest grew into passion and then turned to a career choice! Since then my journey has been consistent and beautiful. From here on, sky's the limit!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------- Mario ---------------------------------------------- -->
+    <div class="container text-center my-5">
+        <img src="mario.gif" alt="Running Mario" class="img-fluid mario">
+        <h3 class="fw-bold mt-4" style="color: #dc143c;">
+            Mario says...<span style="color: #088104;">"Keep <br>Scrolling!..."</span>
+        </h3>
+    </div>
+    <br><br><br>
+    <!-- ---------------------------------------------- Two Graduations ---------------------------------------------- -->
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <h2 class="fw-bold text-center mb-4" style="color: #dc143c;">Two Graduations, One Morning</h2>
+                <p class="fs-5 lh-lg text-justify" style="color: black;">
+                    In the quiet cadence of military school, where routine and rigor shaped each day, I found myself pursuing an academic path that would become one of my life’s most defining moments. Since grade 7, military school had taught me the discipline of structure and the art of resilience. Each morning started with a drill, each night closed with study hours under strict supervision. Yet, beneath the daily uniformity, my ambitions pulsed with a fervent desire to excel and reach beyond the confines of my environment.<br>
+                    <strong style="color: rgb(99, 12, 9);">The pivotal moment arrived on a crisp November morning—November 27th. That day, I was not just a student with dreams; I was a graduate, twice over. I had prepared to take the GED, aiming to complete my high school qualifications early. I sat for my grade 10 national exams and received my results just ninety minutes before my grade 12 scores were released. In the span of an hour and a half, I had effectively graduated from both middle and high school, a leap that transcended typical timelines and spoke to a commitment to break new ground wherever possible.</strong><br>
+                    That morning, as I held both certificates in my hands, I understood something fundamental about myself: achievement is often less about the time it takes and more about the determination that drives each step forward. This journey not only taught me to master academic concepts under pressure but also instilled in me a drive to shape my own path.<br><br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="rubrik text-center">
+        <img class="rubrik-cube" src="cube.gif" alt="Rubrik's Cube">
+        <h5 class="rubrik-text"> 
+            "Well, <strong style="color: blue;">that's my pitch.</strong><br>
+            <u>Don't forget</u> to check out<br>
+            rest of the sites!"
+        </h5>
+    </div>
+    <!-- ---------------------------------------------- Footer ---------------------------------------------- -->
+    <footer class="bg-dark text-center py-3 mt-5">
+        <br>
+        <p class="mb-0" style="color: aliceblue;">I appreciate your time!</p>
+        <p class="mb-0" style="color: aliceblue;">Made with <b style="color: red;">love</b>, Nafiul Khalid</p>
+        <br>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="nafiul.js"></script>
+</body>
+</html>

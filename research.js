@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", () => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -13,8 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
             trigger: ".research.html",
             start: "top top",
             end: "bottom top",
-            scrub: true, // Smooth animation linked to scrolling
-            pin: true,   // Keep the section pinned while animating
+            scrub: true,
+            pin: true,
         },
     });
 });
@@ -28,8 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const highlightRect = highlight.getBoundingClientRect();
 
         // Calculate position for the dot relative to the question mark's dot
-        const dotX = highlightRect.left + highlightRect.width * 0.83; // Adjust the multiplier (0.85) based on the dot alignment
-        const dotY = highlightRect.top + highlightRect.height * 0.68; // Adjust the multiplier (0.6) based on the dot alignment
+        const dotX = highlightRect.left + highlightRect.width * 0.83;
+        const dotY = highlightRect.top + highlightRect.height * 0.68;
 
         // Set the dot's position dynamically
         dot.style.left = `${dotX}px`;

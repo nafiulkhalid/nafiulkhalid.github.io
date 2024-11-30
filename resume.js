@@ -1,10 +1,11 @@
+
 document.addEventListener("DOMContentLoaded", () => {
     const startButton = document.querySelector(".start-button");
     const startText = document.querySelector(".start-text");
     const computerImage = document.querySelector(".windows-image");
     const fullscreenContainer = document.querySelector(".fullscreen-container");
     const windowsTitle = document.querySelector(".windows-title");
-    let isStarted = false; // To track the current state
+    let isStarted = false;
 
     startButton.addEventListener("click", () => {
         if (!isStarted) {
@@ -12,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
             isStarted = true;
             startText.textContent = " ";
             setTimeout(() => {
-                startText.textContent = "End"; // Change to "End"
+                startText.textContent = "End";
             }, 3500);
 
             // Zoom in effect for the computer image
@@ -27,8 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // Create the home screen
                 createHomeScreen();
-            }, 3000); // Delay matches the zoom animation
+            }, 3000);
         } else {
+
             // Shut Down button clicked
             isStarted = false;
             startText.textContent = " ";
@@ -41,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
             fullscreenContainer.style.backgroundColor = "black";
 
             // Add the computer image back
-            fullscreenContainer.appendChild(windowsTitle); // Ensure the heading remains
+            fullscreenContainer.appendChild(windowsTitle);
             fullscreenContainer.appendChild(computerImage);
             fullscreenContainer.appendChild(startButton);
 
@@ -52,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    // Function to create the home screen
+    // Create the home screen
     function createHomeScreen() {
         // Create the desktop container
         const desktopContainer = document.createElement("div");
@@ -74,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <span>Resume</span>
         `;
 
-        // Add click functionality to "Resume" icon
+        // Click functionality to "Resume" icon
         resumeIcon.addEventListener("click", () => {
             const resumePopup = document.createElement("div");
             resumePopup.classList.add("resume-popup");

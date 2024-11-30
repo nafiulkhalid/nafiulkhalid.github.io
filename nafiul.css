@@ -1,5 +1,7 @@
 /*
     Cardial Color #dc143c
+    Windows 95 taskbar color #c0c0c0
+    Windows 95 desktop background color #008080
 */
 body {
     height: 100%;
@@ -161,7 +163,7 @@ img {
 .home-screen {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* Ensures the entire image is visible */
+    object-fit: contain;
     position: absolute;
     top: 0;
     left: 0;
@@ -178,13 +180,13 @@ img {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 20px;
-    background-color: #008080; /* Windows 95 desktop background color */
+    background-color: #008080;
     position: relative;
 }
 .taskbar {
     width: 80%;
     height: 50px;
-    background-color: #c0c0c0; /* Windows 95 taskbar color */
+    background-color: #c0c0c0;
     border-top: 2px solid black;
     position: absolute;
     bottom: 0;
@@ -326,13 +328,12 @@ img {
     line-height: 3.5rem;
 }
 
-/* Flashing Button Animation */
+/* Flashing Button */
 .flashing-button {
     animation: flash 1.5s infinite;
     animation-timing-function: ease-in-out;
 }
 
-/* Keyframes for Flashing Effect */
 @keyframes flash {
     0%, 100% {
         background-color: #28a745; 

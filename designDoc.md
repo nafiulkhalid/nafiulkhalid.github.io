@@ -1,5 +1,5 @@
 # Software Design Document (SDD)
-## Portfolio Website | Nafiul Khalid
+## Portfolio Website
 
 ---
 

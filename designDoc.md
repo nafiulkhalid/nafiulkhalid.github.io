@@ -1,7 +1,5 @@
-# Software Design Document (SDD)
-## Portfolio Website
+## Software Design Documemt for Portfolio Website
 
----
 
 ## **Table of Contents**
 
@@ -25,7 +23,12 @@
 
 ## **1. Introduction**
 
-The **Portfolio Website** for **Nafiul Khalid** is designed to showcase various projects, research, and achievements. It provides a simple and engaging interface for visitors to explore detailed project descriptions, view associated technologies, and interact with images through carousels. The site also includes a **real-time local time display** of **Miami**, where the developer resides, ensuring a personalized experience for visitors.
+The **Portfolio Website** is designed to showcase various projects, research, and achievements. It provides a simple and engaging interface for visitors to explore detailed project descriptions, view associated technologies, and interact with images through carousels. The site also includes a **real-time local time display** of **Miami**, where I resides, ensuring a personalized experience for visitors.
+
+### Basic Idea: 
+Website with separate webpages, accessible via naviagtion bar. <br>
+Publising via GitHub Pages <br>
+Allocated timeline 48hours --> 2 hour of design & plan, 36 hours of development, 10 hours in hand for debugging & adjustment.
 
 ---
 

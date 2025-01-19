@@ -96,21 +96,9 @@ The portfolio website is a **responsive**, **multi-page web application** compos
 - Two fold:
         - Left : A little note to inspire them to write me
         - Right : A box to send me their words
-
 ---
 
-## **4. Non-Functional Requirements**
-
-- **Responsiveness**: The website must function properly on all screen sizes, from mobile to desktop.
-- **Usability**: The website should be easy to navigate with a clean and simple design.
-- **Performance**: Images, JavaScript, and CSS should be optimized to ensure fast loading times.
-- **Accessibility**: The website should ensure high contrast text and accessible navigation for users with disabilities. Also, alternative text should be provided for images.
-- **SEO Optimization**: The site should follow **SEO best practices** to improve visibility on search engines.
-- **Mobile-First Design**: The layout and design should prioritize mobile devices and then scale up to larger screens.
-
----
-
-## **5. System Architecture**
+## **4. System Architecture**
 
 The portfolio website follows a **client-server model**. Since the website is static, there is no backend server involved, and all content is pre-built and deployed as static files (HTML, CSS, and JavaScript).
 
@@ -124,16 +112,14 @@ The portfolio website follows a **client-server model**. Since the website is st
 
 ---
 
-## **6. Technologies Used**
+## **5. Technologies Used**
 
 ### **Frontend**:
 - **HTML5**: Structuring the content and building semantic web pages.
 - **CSS3**: Styling the website, including layout, colors, and typography.
 - **JavaScript**: For interactive features such as the real-time clock and carousels.
 - **Bootstrap 5**: For responsive design and using pre-built components (e.g., navigation bar, cards, carousel).
-- **3Dmol.js**: For 3D visualization (if bioinformatics-related projects are included).
 - **FontAwesome / Bootstrap Icons**: For including icons (e.g., GitHub, Devpost).
-- **jQuery** (optional): For DOM manipulation, if used.
 
 ### **Backend**:
 - **None** (static website).
@@ -144,31 +130,13 @@ The portfolio website follows a **client-server model**. Since the website is st
 
 ---
 
-## **7. User Interface Design**
-
-### **Navigation Bar**:
-- A **fixed-top** navigation bar using Bootstrap with links to the **Home**, **Projects**, **Research**, **Resume**, and **Contact** pages.
-- The active section should be highlighted to indicate the current page.
-
-### **Projects Section**:
-- Each project is displayed as a **card** with a title, description, technologies, and a GitHub repository link.
-- Project images are displayed in a **carousel**, providing an interactive way to view project images.
-
-### **Real-Time Clock**:
-- A clock that shows the current local time in Miami and updates every minute.
-
-### **Footer**:
-- A footer with a thank-you message and a programming-related joke.
-
----
-
-## **8. Database Design**
+## **6. Database Design**
 
 There is no need for a database as the portfolio website is **static**. All content, including text, images, and links, is stored directly within the **HTML**, **CSS**, and **JavaScript** files.
 
 ---
 
-## **9. Security**
+## **7. Security**
 
 - **HTTPS**: The website will be served over HTTPS to ensure the integrity of content and protect data in transit.
 - **Sanitization**: Any user input (e.g., contact form) will be sanitized to prevent cross-site scripting (**XSS**).
@@ -176,16 +144,16 @@ There is no need for a database as the portfolio website is **static**. All cont
 
 ---
 
-## **10. Deployment**
+## **8. Deployment**
 
-The website will be deployed on a static hosting platform such as **GitHub Pages**, **Netlify**, or **Vercel**.
+The website will be deployed on a static hosting platform -- **GitHub Pages**.
 
 ### **CI/CD Pipeline**:
 - Continuous deployment can be achieved using **GitHub Actions** or other similar tools, ensuring smooth updates whenever content is modified.
 
 ---
 
-## **11. Testing**
+## **9. Testing**
 
 - **Unit Testing**: JavaScript functions, particularly the real-time clock, will be tested.
 - **Cross-Browser Testing**: Ensuring compatibility across popular browsers such as **Chrome**, **Firefox**, **Safari**, and **Edge**.
@@ -194,7 +162,7 @@ The website will be deployed on a static hosting platform such as **GitHub Pages
 
 ---
 
-## **12. Maintenance**
+## **10. Maintenance**
 
 - **Content Updates**: The website content can be updated manually by modifying **HTML** files to add new projects or achievements.
 - **Image Optimization**: All images will be compressed and optimized for faster loading.
@@ -202,7 +170,7 @@ The website will be deployed on a static hosting platform such as **GitHub Pages
 
 ---
 
-## **13. Risks and Challenges**
+## **11. Risks and Challenges**
 
 - **Cross-Browser Compatibility**: Ensuring that the website functions correctly on older browsers, such as **Internet Explorer**, may be a challenge.
 - **Responsive Issues**: Ensuring proper layout and functionality across a wide variety of screen sizes and devices.
@@ -210,17 +178,3 @@ The website will be deployed on a static hosting platform such as **GitHub Pages
 
 ---
 
-## **14. Performance Optimizations**
-
-- **Image Compression**: Images will be compressed using tools like **ImageOptim** or **TinyPNG** to reduce their file size without sacrificing quality.
-- **Lazy Loading**: Images and other heavy content will be lazy-loaded to improve initial load times.
-- **CDN Usage**: Use a **Content Delivery Network (CDN)** to serve static assets like images and scripts more efficiently, enhancing performance.
-
----
-
-## **15. Analytics and Monitoring**
-
-- **Google Analytics**: Track site visits and user interaction to gather insights for future improvements.
-- **Error Logging**: Implement services like **Sentry** for logging frontend errors and tracking issues in real-time.
-
----

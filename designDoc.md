@@ -65,14 +65,19 @@ The portfolio website is a **responsive**, **multi-page web application** compos
 - Story highlight -- "Two Graduates, One Morning"
 - CTA : GIF cube & request to visit other webpages
 
-### **Projects Page**
-- List all projects with the following details:
-  - **Title**
-  - **Description**
-  - **Technologies used**
-  - **Link to GitHub repository**
-- Display images of each project in a **carousel component**.
-- Provide a clickable **GitHub repository** link for each project.
+### **Projects**
+- Two fold introduction:
+      - Left : A catchy sentence (Google's XYZ formula) + Technical social links
+      - Right : A picture (David & Hackharvard-24)
+- Projects Display:
+      - Title
+      - Description
+      - Technologies Used
+      - Project Related Photos (Auto Slide)
+- A joke for humor at end
+- Make the projects starting from right-left order, if previous was right, next is left & vice versa
+
+###
 
 ### **Footer**
 - Display a footer message with the developer’s name and a programming-related joke.

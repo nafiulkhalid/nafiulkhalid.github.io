@@ -34,24 +34,36 @@ Allocated timeline 48hours --> 2 hour of design & plan, 36 hours of development,
 
 ## **2. System Overview**
 
-The portfolio website is a **responsive**, **single-page web application** composed of the following sections:
+The portfolio website is a **responsive**, **multi-page web application** composed of the following pages:
 
-- **Home Page**: A brief introduction, with links to projects, research, resume, and contact information.
-- **Projects Page**: Lists multiple projects with descriptions, technologies, images, and links to GitHub repositories.
-- **Real-Time Clock**: Displays the local time in Miami, updated every minute.
-- **Footer**: A footer with the developer's name and a lighthearted programming joke.
-
-The site is built using modern web technologies to ensure **usability**, **responsiveness**, and **performance**, with a focus on **mobile-first design**.
+- **Home**: A brief introduction, with links to projects, research, resume, and contact information.
+- **Projects**: Lists multiple projects with descriptions, technologies, images, and links to GitHub repositories.
+- **Research**: Research publications with descriptions, & also research centered experiences and achievements
+- **Resume**: An Windows'85 inspired animation to present my resume in that animated desktop
+- **Contact**: An tetris inspired background & feedback box to connect me in mail.
 
 ---
 
 ## **3. Functional Requirements**
+--> Keep in mind, "Less is more!"<br>
 
-### **Home Page**
-- Display an introduction with the developer’s name and slogan.
-- Provide navigation links to other sections of the website.
-- Include social media links (e.g., GitHub, Devpost).
-- Show a **real-time local time** for Miami.
+### **General**
+- Gridded white background with black stripes
+- Footer: Black background, white text, & an appreciation text in center
+- Nav bar: Black background, full name in left (clickable to homepage), & webpage options in right (focus on alignment & spacing)
+
+### **Homepage**
+- Display an introduction : Image & basic summary (Use flex & grid box)
+      - Summary
+      - Social Media (Links) (Logos Preferred)
+      - Local Time (So the viewer / recruiters can connect or compare) (Make sure the clock updates regularly)
+- Good Space
+- A two folded overview
+      - right : why Computer Science or SWE?
+      - left : tech stacks
+- A Cartoon running (to break monotonuousness) -- WallE, Mario, Ball, MIT Cheetah
+- Story highlight -- "Two Graduates, One Morning"
+- CTA : GIF cube & request to visit other webpages
 
 ### **Projects Page**
 - List all projects with the following details:

@@ -77,10 +77,25 @@ The portfolio website is a **responsive**, **multi-page web application** compos
 - A joke for humor at end
 - Make the projects starting from right-left order, if previous was right, next is left & vice versa
 
-###
+### **Research**
+- Start with a catch phrase, "It starts with 'why?'" -- Try a little animation at that phrase
+- List Publications: two folded - one Side for journal, one side for description - & like projects start from right-left order, add links to researchGate
+- Academic Conferences List: A photo auto-slide, & at right, a list in bullet points
 
-### **Footer**
-- Display a footer message with the developer’s name and a programming-related joke.
+### **Resume**
+- Black Background
+- Animation of a Windows'85 model
+        - Start End responding buttons
+        - Enlarge & fades to a desktop ('85s)
+        - Two folders in desktop -- My computer , Resume
+        - Resume is clickable & opens resume
+
+### **Contact**
+- Tetris inspired background on general background
+- A catch phrase at top
+- Two fold:
+        - Left : A little note to inspire them to write me
+        - Right : A box to send me their words
 
 ---
 

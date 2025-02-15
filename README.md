@@ -7,7 +7,7 @@ Welcome to the GitHub respiratory for my portfolio website! This site is live - 
 
 ### **Building Bricks**
 
-() **Languages**: JavaScript, HTML5, CSS3<br>
+() **Languages**: JavaScript, HTML5, CSS3, React.js<br>
 () **Frameworks**: Bootstrap, Tailwind CSS<br>
 () **Animation**: GSAP (GreenSock Animation Platform)<br>
 () **Hosting**: GitHub Pages
